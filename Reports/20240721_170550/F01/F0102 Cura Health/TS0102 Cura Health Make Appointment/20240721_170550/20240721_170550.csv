@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS0102 Cura Health Make Appointment,Firefox 128.0,,,21-07-2024 17:06:01,21-07-2024 17:06:22,"21,375s",PASSED
+,,,,,,,
+Test Cases/F01 Common Test Case/FF0102 CuraHealth/TC0102002 Make an Appointment,Firefox 128.0,,,21-07-2024 17:06:01,21-07-2024 17:06:22,"21,129s",PASSED
+"callTestCase(findTestCase(""F01 Common Test Case/FF0102 CuraHealth/TC0102001 Login Cura Health""), [:], STOP_ON_FAILURE)",Firefox 128.0,,,21-07-2024 17:06:02,21-07-2024 17:06:15,"13,581s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Firefox 128.0,,,21-07-2024 17:06:15,21-07-2024 17:06:16,"1,253s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",Firefox 128.0,,,21-07-2024 17:06:16,21-07-2024 17:06:17,"0,493s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs""))",Firefox 128.0,,,21-07-2024 17:06:17,21-07-2024 17:06:17,"0,496s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/div_Visit Date (Required)_input-group-addon""))",Firefox 128.0,,,21-07-2024 17:06:17,21-07-2024 17:06:18,"0,512s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_19""))",Firefox 128.0,,,21-07-2024 17:06:18,21-07-2024 17:06:18,"0,494s",PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""This an appointment for Medical Check up Next Week"")",Firefox 128.0,,,21-07-2024 17:06:18,21-07-2024 17:06:19,"0,596s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Firefox 128.0,,,21-07-2024 17:06:19,21-07-2024 17:06:20,"0,715s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/appointment.php#summary"")",Firefox 128.0,,,21-07-2024 17:06:20,21-07-2024 17:06:20,"0,018s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation""), ""Appointment Confirmation"")",Firefox 128.0,,,21-07-2024 17:06:20,21-07-2024 17:06:20,"0,408s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Go to Homepage""))",Firefox 128.0,,,21-07-2024 17:06:20,21-07-2024 17:06:21,"0,681s",PASSED
+closeBrowser(),Firefox 128.0,,,21-07-2024 17:06:21,21-07-2024 17:06:22,"1,302s",PASSED

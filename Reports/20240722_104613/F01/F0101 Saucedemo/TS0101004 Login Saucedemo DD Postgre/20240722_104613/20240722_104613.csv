@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS0101004 Login Saucedemo DD Postgre,Chrome 126.0.0.0,,,22-07-2024 10:46:24,22-07-2024 10:47:07,"43,487s",PASSED
+,,,,,,,
+Test Cases/F02 Specify Test Case/F0201 Data Driven/TC0201003 Login Saucedemo DD Postgre,Chrome 126.0.0.0,,,22-07-2024 10:46:24,22-07-2024 10:46:35,"11,556s",PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,22-07-2024 10:46:24,22-07-2024 10:46:27,"2,602s",PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,22-07-2024 10:46:27,22-07-2024 10:46:27,"0,115s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 126.0.0.0,,,22-07-2024 10:46:27,22-07-2024 10:46:29,"2,010s",PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), username)",Chrome 126.0.0.0,,,22-07-2024 10:46:29,22-07-2024 10:46:33,"3,892s",PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_password""), password)",Chrome 126.0.0.0,,,22-07-2024 10:46:33,22-07-2024 10:46:34,"0,765s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 126.0.0.0,,,22-07-2024 10:46:34,22-07-2024 10:46:34,"0,461s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_Open Menu""))",Chrome 126.0.0.0,,,22-07-2024 10:46:34,22-07-2024 10:46:35,"0,464s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/a_Logout""))",Chrome 126.0.0.0,,,22-07-2024 10:46:35,22-07-2024 10:46:35,"0,390s",PASSED
+closeBrowser(),Chrome 126.0.0.0,,,22-07-2024 10:46:35,22-07-2024 10:46:35,"0,335s",PASSED
+,,,,,,,
+Test Cases/F02 Specify Test Case/F0201 Data Driven/TC0201003 Login Saucedemo DD Postgre,Chrome 126.0.0.0,,,22-07-2024 10:46:35,22-07-2024 10:46:43,"7,790s",PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,22-07-2024 10:46:35,22-07-2024 10:46:36,"0,961s",PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,22-07-2024 10:46:36,22-07-2024 10:46:36,"0,069s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 126.0.0.0,,,22-07-2024 10:46:36,22-07-2024 10:46:39,"2,022s",PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), username)",Chrome 126.0.0.0,,,22-07-2024 10:46:39,22-07-2024 10:46:41,"2,206s",PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_password""), password)",Chrome 126.0.0.0,,,22-07-2024 10:46:41,22-07-2024 10:46:42,"0,825s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 126.0.0.0,,,22-07-2024 10:46:42,22-07-2024 10:46:42,"0,458s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_Open Menu""))",Chrome 126.0.0.0,,,22-07-2024 10:46:42,22-07-2024 10:46:42,"0,459s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/a_Logout""))",Chrome 126.0.0.0,,,22-07-2024 10:46:42,22-07-2024 10:46:43,"0,375s",PASSED
+closeBrowser(),Chrome 126.0.0.0,,,22-07-2024 10:46:43,22-07-2024 10:46:43,"0,373s",PASSED
+,,,,,,,
+Test Cases/F02 Specify Test Case/F0201 Data Driven/TC0201003 Login Saucedemo DD Postgre,Chrome 126.0.0.0,,,22-07-2024 10:46:43,22-07-2024 10:46:57,"13,871s",PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,22-07-2024 10:46:43,22-07-2024 10:46:44,"0,891s",PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,22-07-2024 10:46:44,22-07-2024 10:46:44,"0,058s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 126.0.0.0,,,22-07-2024 10:46:44,22-07-2024 10:46:47,"2,525s",PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), username)",Chrome 126.0.0.0,,,22-07-2024 10:46:47,22-07-2024 10:46:50,"2,919s",PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_password""), password)",Chrome 126.0.0.0,,,22-07-2024 10:46:50,22-07-2024 10:46:50,"0,804s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 126.0.0.0,,,22-07-2024 10:46:50,22-07-2024 10:46:56,"5,456s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_Open Menu""))",Chrome 126.0.0.0,,,22-07-2024 10:46:56,22-07-2024 10:46:56,"0,461s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/a_Logout""))",Chrome 126.0.0.0,,,22-07-2024 10:46:56,22-07-2024 10:46:57,"0,392s",PASSED
+closeBrowser(),Chrome 126.0.0.0,,,22-07-2024 10:46:57,22-07-2024 10:46:57,"0,333s",PASSED
+,,,,,,,
+Test Cases/F02 Specify Test Case/F0201 Data Driven/TC0201003 Login Saucedemo DD Postgre,Chrome 126.0.0.0,,,22-07-2024 10:46:57,22-07-2024 10:47:07,"9,848s",PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,22-07-2024 10:46:57,22-07-2024 10:46:58,"0,884s",PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,22-07-2024 10:46:58,22-07-2024 10:46:58,"0,060s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 126.0.0.0,,,22-07-2024 10:46:58,22-07-2024 10:47:02,"3,871s",PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), username)",Chrome 126.0.0.0,,,22-07-2024 10:47:02,22-07-2024 10:47:05,"2,620s",PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_password""), password)",Chrome 126.0.0.0,,,22-07-2024 10:47:05,22-07-2024 10:47:05,"0,837s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 126.0.0.0,,,22-07-2024 10:47:05,22-07-2024 10:47:06,"0,419s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_Open Menu""))",Chrome 126.0.0.0,,,22-07-2024 10:47:06,22-07-2024 10:47:06,"0,462s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/a_Logout""))",Chrome 126.0.0.0,,,22-07-2024 10:47:06,22-07-2024 10:47:07,"0,363s",PASSED
+closeBrowser(),Chrome 126.0.0.0,,,22-07-2024 10:47:07,22-07-2024 10:47:07,"0,301s",PASSED

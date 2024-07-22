@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS0103001 Cern Web" time="54.746" tests="1" failures="0" errors="0">
+   <testsuite name="TS0103001 Cern Web" tests="1" failures="0" errors="0" time="54.746" skipped="0" timestamp="22-07-2024T13:51:23" hostname="mrdi_ - DHANIE-PC" id="Test Suites/F01 Test Suites/F0103 Cern/TS0103001 Cern Web">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\mrdi_\\Katalon Studio\\First_Automation_Project_Web_Based\\Reports\\20240722_135111\\F01 Test Suites\\F0103 Cern\\TS0103001 Cern Web\\20240722_135111"/>
+         <property name="logFiles" value="C:\\Users\\mrdi_\\Katalon Studio\\First_Automation_Project_Web_Based\\Reports\\20240722_135111\\F01 Test Suites\\F0103 Cern\\TS0103001 Cern Web\\20240722_135111\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mrdi_ - DHANIE-PC"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Edge Chromium 126"/>
+         <property name="hostAddress" value="192.168.229.1"/>
+         <property name="sessionId" value="edcb9607f3df530a2de358d7a94e3022"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/F01 Common Test Case/FF0105 Science Web/TC0105003 Search Another Article" time="54.436" classname="Test Cases/F01 Common Test Case/FF0105 Science Web/TC0105003 Search Another Article" status="PASSED">
+         <system-out><![CDATA[22-07-2024T13:51:23 - [TEST_CASE][PASSED] - Test Cases/F01 Common Test Case/FF0105 Science Web/TC0105003 Search Another Article: Test Cases/F01 Common Test Case/FF0105 Science Web/TC0105003 Search Another Article
+
+22-07-2024T13:51:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("F01 Common Test Case/FF0105 Science Web/TC0105002 Search Article"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/F01 Common Test Case/FF0105 Science Web/TC0105002 Search Article' successfully
+
+22-07-2024T13:51:24 - [TEST_CASE][PASSED] - Test Cases/F01 Common Test Case/FF0105 Science Web/TC0105002 Search Article: Test Cases/F01 Common Test Case/FF0105 Science Web/TC0105002 Search Article
+
+22-07-2024T13:51:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("F01 Common Test Case/FF0105 Science Web/TC0105001 Open Cern"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/F01 Common Test Case/FF0105 Science Web/TC0105001 Open Cern' successfully
+
+22-07-2024T13:51:24 - [TEST_CASE][PASSED] - Test Cases/F01 Common Test Case/FF0105 Science Web/TC0105001 Open Cern: Test Cases/F01 Common Test Case/FF0105 Science Web/TC0105001 Open Cern
+
+22-07-2024T13:51:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-07-2024T13:51:25 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+22-07-2024T13:51:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-07-2024T13:51:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-07-2024T13:51:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+22-07-2024T13:51:29 - [MESSAGE][PASSED] - Current window maximized
+
+22-07-2024T13:51:29 - [TEST_STEP][PASSED] - navigateToUrl("https://home.cern/"): Navigate to 'https://home.cern/' successfully
+
+22-07-2024T13:51:42 - [MESSAGE][PASSED] - Navigate to 'https://home.cern/' successfully
+
+22-07-2024T13:51:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/F01 Common Test Case/FF0105 Science Web/TC0105001 Open Cern' successfully
+
+22-07-2024T13:51:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home  CERN/a_search")): Object: 'Object Repository/Page_Home  CERN/a_search' is clicked on
+
+22-07-2024T13:51:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  CERN/a_search' is clicked on
+
+22-07-2024T13:51:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Home  CERN/input_Search_keys"), "antimatter"): Text 'antimatter' is set on object 'Object Repository/Page_Home  CERN/input_Search_keys'
+
+22-07-2024T13:51:44 - [MESSAGE][PASSED] - Text 'antimatter' is set on object 'Object Repository/Page_Home  CERN/input_Search_keys'
+
+22-07-2024T13:51:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+22-07-2024T13:51:44 - [MESSAGE][WARNING] - Test object id is null
+
+22-07-2024T13:51:44 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+22-07-2024T13:51:44 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+22-07-2024T13:51:44 - [TEST_STEP][PASSED] - navigateToUrl("https://home.cern/search/node?keys=antimatter"): Navigate to 'https://home.cern/search/node?keys=antimatter' successfully
+
+22-07-2024T13:52:01 - [MESSAGE][PASSED] - Navigate to 'https://home.cern/search/node?keys=antimatter' successfully
+
+22-07-2024T13:52:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Search Results  CERN/a_Probing matterantimatter asymmetry with AI")): Object: 'Object Repository/Page_Search Results  CERN/a_Probing matterantimatter asymmetry with AI' is clicked on
+
+22-07-2024T13:52:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search Results  CERN/a_Probing matterantimatter asymmetry with AI' is clicked on
+
+22-07-2024T13:52:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/F01 Common Test Case/FF0105 Science Web/TC0105002 Search Article' successfully
+
+22-07-2024T13:52:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Probing matterantimatter asymmetry wit_fc4890/img")): Object: 'Object Repository/Page_Probing matterantimatter asymmetry wit_fc4890/img' is clicked on
+
+22-07-2024T13:52:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Probing matterantimatter asymmetry wit_fc4890/img' is clicked on
+
+22-07-2024T13:52:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home  CERN/a_search")): Object: 'Object Repository/Page_Home  CERN/a_search' is clicked on
+
+22-07-2024T13:52:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home  CERN/a_search' is clicked on
+
+22-07-2024T13:52:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Home  CERN/input_Search_keys"), "quantum"): Text 'quantum' is set on object 'Object Repository/Page_Home  CERN/input_Search_keys'
+
+22-07-2024T13:52:09 - [MESSAGE][PASSED] - Text 'quantum' is set on object 'Object Repository/Page_Home  CERN/input_Search_keys'
+
+22-07-2024T13:52:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+22-07-2024T13:52:09 - [MESSAGE][WARNING] - Test object id is null
+
+22-07-2024T13:52:09 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+22-07-2024T13:52:10 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+22-07-2024T13:52:10 - [TEST_STEP][PASSED] - navigateToUrl("https://home.cern/search/node?keys=quantum"): Navigate to 'https://home.cern/search/node?keys=quantum' successfully
+
+22-07-2024T13:52:14 - [MESSAGE][PASSED] - Navigate to 'https://home.cern/search/node?keys=quantum' successfully
+
+22-07-2024T13:52:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Search Results  CERN/a_Basics of Quantum Computing")): Object: 'Object Repository/Page_Search Results  CERN/a_Basics of Quantum Computing' is clicked on
+
+22-07-2024T13:52:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search Results  CERN/a_Basics of Quantum Computing' is clicked on
+
+22-07-2024T13:52:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Basics of Quantum Computing  CERN/h1_Basics of Quantum Computing"), "Basics of Quantum Computing"): Actual text and expected text of test object 'Object Repository/Page_Basics of Quantum Computing  CERN/h1_Basics of Quantum Computing' are matched.
+
+22-07-2024T13:52:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Basics of Quantum Computing  CERN/h1_Basics of Quantum Computing' are matched.
+
+22-07-2024T13:52:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+22-07-2024T13:52:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[22-07-2024T13:51:23 - [TEST_SUITE][PASSED] - TS0103001 Cern Web: Test Cases/F01 Common Test Case/FF0105 Science Web/TC0105003 Search Another Article]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

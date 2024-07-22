@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS0103001 Cern Web,Edge Chromium 126,,,22-07-2024 13:51:23,22-07-2024 13:52:17,"54,746s",PASSED
+,,,,,,,
+Test Cases/F01 Common Test Case/FF0105 Science Web/TC0105003 Search Another Article,Edge Chromium 126,,,22-07-2024 13:51:23,22-07-2024 13:52:17,"54,436s",PASSED
+"callTestCase(findTestCase(""F01 Common Test Case/FF0105 Science Web/TC0105002 Search Article""), [:], STOP_ON_FAILURE)",Edge Chromium 126,,,22-07-2024 13:51:24,22-07-2024 13:52:06,"42,230s",PASSED
+"click(findTestObject(""Object Repository/Page_Probing matterantimatter asymmetry wit_fc4890/img""))",Edge Chromium 126,,,22-07-2024 13:52:06,22-07-2024 13:52:08,"2,334s",PASSED
+"click(findTestObject(""Object Repository/Page_Home  CERN/a_search""))",Edge Chromium 126,,,22-07-2024 13:52:08,22-07-2024 13:52:09,"0,383s",PASSED
+"setText(findTestObject(""Object Repository/Page_Home  CERN/input_Search_keys""), ""quantum"")",Edge Chromium 126,,,22-07-2024 13:52:09,22-07-2024 13:52:09,"0,733s",PASSED
+"sendKeys(findTestObject(null), Keys.chord(ENTER))",Edge Chromium 126,,,22-07-2024 13:52:09,22-07-2024 13:52:10,"0,345s",PASSED
+"navigateToUrl(""https://home.cern/search/node?keys=quantum"")",Edge Chromium 126,,,22-07-2024 13:52:10,22-07-2024 13:52:14,"4,512s",PASSED
+"click(findTestObject(""Object Repository/Page_Search Results  CERN/a_Basics of Quantum Computing""))",Edge Chromium 126,,,22-07-2024 13:52:14,22-07-2024 13:52:16,"2,300s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Basics of Quantum Computing  CERN/h1_Basics of Quantum Computing""), ""Basics of Quantum Computing"")",Edge Chromium 126,,,22-07-2024 13:52:16,22-07-2024 13:52:17,"0,474s",PASSED
+closeBrowser(),Edge Chromium 126,,,22-07-2024 13:52:17,22-07-2024 13:52:17,"0,521s",PASSED

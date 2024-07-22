@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Swag Labs/button_Open Menu",
+      "brokenLocator": "//button[@id\u003d\u0027react-burger-menu-btn\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Swag Labs/button_Open Menu_position.png"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS0101001 Login logout Saucedemo,Firefox 128.0,,,21-07-2024 15:55:12,21-07-2024 15:55:27,"14,249s",PASSED
+,,,,,,,
+Test Cases/F01 Common Test Case/FF0101 Saucedemo/TC0101002 Logout Saucedemo,Firefox 128.0,,,21-07-2024 15:55:13,21-07-2024 15:55:27,"13,990s",PASSED
+"callTestCase(findTestCase(""F01 Common Test Case/FF0101 Saucedemo/TC0101001 Login Saucedemo""), [:], STOP_ON_FAILURE)",Firefox 128.0,,,21-07-2024 15:55:13,21-07-2024 15:55:24,"10,944s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_Open Menu""))",Firefox 128.0,,,21-07-2024 15:55:24,21-07-2024 15:55:25,"0,475s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/a_Logout""))",Firefox 128.0,,,21-07-2024 15:55:25,21-07-2024 15:55:25,"0,512s",PASSED
+closeBrowser(),Firefox 128.0,,,21-07-2024 15:55:25,21-07-2024 15:55:27,"1,521s",PASSED

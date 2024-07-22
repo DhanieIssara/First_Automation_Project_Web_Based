@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>TD0401 SQL Server Saucedemo</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>291003fc-3aaa-4b15-a0ac-c341dd1c6fac</dataFileGUID>
+   <dataSourceUrl>jdbc:sqlserver://35.229.139.231;databaseName=Test_Swaglabs</dataSourceUrl>
+   <driver>DBData</driver>
+   <driverClassName></driverClassName>
+   <isInternalPath>false</isInternalPath>
+   <password>M0sxMjM0NTEu</password>
+   <query>SELECT * FROM [Test_Swaglabs].[dbo].[swaglabs]</query>
+   <secureUserAccount>true</secureUserAccount>
+   <sheetName></sheetName>
+   <user>sa</user>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

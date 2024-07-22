@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC0201001 Login Saucedemo DD Excel</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4db71643-a6f8-4de8-8eb3-0e47aba6385c</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>c39063ae-f2fd-4dcb-bf4a-52db18516660</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/F01 Excel/TD01001 Username Saucedemo</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>c39063ae-f2fd-4dcb-bf4a-52db18516660</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>8779fb4e-b0bf-4cfc-966e-4716e8a1fa53</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>c39063ae-f2fd-4dcb-bf4a-52db18516660</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>0e4a4920-cc3d-444b-bde5-a34a4125f1a8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8779fb4e-b0bf-4cfc-966e-4716e8a1fa53</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0e4a4920-cc3d-444b-bde5-a34a4125f1a8</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

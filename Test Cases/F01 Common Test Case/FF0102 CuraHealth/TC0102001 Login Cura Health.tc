@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>https://katalon-demo-cura.herokuapp.com/profile.php#login</description>
+   <name>TC0102001 Login Cura Health</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f7bf9af4-ce16-4dc2-8944-893b15bfe4c4</testCaseGuid>
+</TestCaseEntity>

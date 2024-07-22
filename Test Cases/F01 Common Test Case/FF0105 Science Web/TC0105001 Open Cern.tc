@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>https://home.cern/</description>
+   <name>TC0105001 Open Cern</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c8c2f92e-61a1-4554-b5e4-54b55d77a37a</testCaseGuid>
+</TestCaseEntity>

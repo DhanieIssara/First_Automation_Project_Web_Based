@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC0201002 Login Saucedemo DD MySQL</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>06708320-f205-4029-bfe2-e078f6d0bf27</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>a5bfcf25-6824-40de-8cc1-c1e1aa770473</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/F02 MySQL/TD0201 Mysql Saucedemo</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>a5bfcf25-6824-40de-8cc1-c1e1aa770473</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>0ae12c70-7c68-47b0-a562-300ebbbf7070</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>a5bfcf25-6824-40de-8cc1-c1e1aa770473</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>0123baf9-ec6b-4fdb-903e-6c03accccda8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0ae12c70-7c68-47b0-a562-300ebbbf7070</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0123baf9-ec6b-4fdb-903e-6c03accccda8</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

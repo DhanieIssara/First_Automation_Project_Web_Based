@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC0201003 Login Saucedemo DD Postgre</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dcbafbd7-589c-4d46-b13a-ba398be49492</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>92bc79e1-b846-472e-afe7-9531d2bc061e</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/F03 Postgre/TD0301 Postgre Saucedemo</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>92bc79e1-b846-472e-afe7-9531d2bc061e</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>87c1d956-be39-4716-96ee-300574ecb82c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>92bc79e1-b846-472e-afe7-9531d2bc061e</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>7a1de919-9131-4e92-986d-7426fd9b182d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>87c1d956-be39-4716-96ee-300574ecb82c</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7a1de919-9131-4e92-986d-7426fd9b182d</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

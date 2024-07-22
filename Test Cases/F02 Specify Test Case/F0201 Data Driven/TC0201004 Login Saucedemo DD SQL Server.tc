@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC0201004 Login Saucedemo DD SQL Server</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>702a13ae-a50d-45f9-a664-175497b99cdf</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>36a35bb9-2164-40f3-9df4-f5aefb257e2f</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/F04 SQL Server/TD0401 SQL Server Saucedemo</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>36a35bb9-2164-40f3-9df4-f5aefb257e2f</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>ca880fdb-ecac-450e-8b4e-aa35c93d5cb9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>36a35bb9-2164-40f3-9df4-f5aefb257e2f</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>d15a882d-b626-4a20-b9e9-916e570c48e5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ca880fdb-ecac-450e-8b4e-aa35c93d5cb9</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d15a882d-b626-4a20-b9e9-916e570c48e5</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

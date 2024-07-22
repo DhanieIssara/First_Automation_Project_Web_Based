@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC0105002 Search Article</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a8a8831e-1748-4ec5-ba99-1947ab9cac6f</testCaseGuid>
+</TestCaseEntity>

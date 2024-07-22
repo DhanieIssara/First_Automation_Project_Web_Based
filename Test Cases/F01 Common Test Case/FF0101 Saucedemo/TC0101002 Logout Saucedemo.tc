@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC0101002 Logout Saucedemo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4c17c3bd-14d4-4b0a-b776-a42b0c26d1ea</testCaseGuid>
+</TestCaseEntity>

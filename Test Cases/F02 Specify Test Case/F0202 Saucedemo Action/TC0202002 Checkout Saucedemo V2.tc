@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC0202002 Checkout Saucedemo V2</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>303baed7-ac0b-469f-ad9f-37f835f561db</testCaseGuid>
+</TestCaseEntity>
